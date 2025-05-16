@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="265.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookstrore_system.java_assignment.Controller">
+   <children>
+      <SplitPane dividerPositions="0.1135" layoutX="76.0" layoutY="6.0" orientation="VERTICAL" prefHeight="265.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label layoutX="6.0" text="Bookworm Heaven">
+                     <font>
+                        <Font size="18.0" />
+                     </font></Label>
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <SplitPane dividerPositions="0.29797979797979796" layoutX="100.0" prefHeight="231.2" prefWidth="599.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <ImageView fitHeight="396.0" fitWidth="458.0" layoutX="-141.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@../../../../customer.jpeg" />
+                                 </image>
+                              </ImageView>
+                           </children></AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <SplitPane dividerPositions="0.8" layoutX="48.0" layoutY="23.0" orientation="VERTICAL" prefHeight="229.6" prefWidth="416.8" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label layoutX="14.0" layoutY="14.0" text="please choose an option">
+                                             <font>
+                                                <Font size="14.0" />
+                                             </font>
+                                          </Label>
+                                          <Button layoutX="42.0" layoutY="46.0" mnemonicParsing="false" onAction="#purchase" prefHeight="43.0" prefWidth="122.0" text="Buy book" />
+                                          <Button fx:id="search" layoutX="42.0" layoutY="114.0" mnemonicParsing="false" onAction="#opensearch" prefHeight="43.0" prefWidth="122.0" text="Search" />
+                                          <Button fx:id="view" layoutX="208.0" layoutY="82.0" mnemonicParsing="false" onAction="#openview" prefHeight="43.0" prefWidth="122.0" text="View catatouge" />
+                                       </children></AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Button fx:id="back" layoutX="338.0" mnemonicParsing="false" onAction="#openmeny" prefHeight="43.0" prefWidth="83.0" text="Back" />
+                                       </children></AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children></AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

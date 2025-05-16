@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bookstrore_system.java_assignment.pageControler">
+   <children>
+      <SplitPane dividerPositions="0.11" layoutX="55.0" layoutY="55.0" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <Label layoutX="50.0" layoutY="12.0" prefHeight="41.6" prefWidth="599.2" text="  Bookworm Heaven                                                                Book Addition" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Label>
+               </children></AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+               <children>
+                  <SplitPane dividerPositions="0.4103078982597054" layoutX="14.0" layoutY="47.0" prefHeight="351.2" prefWidth="599.2" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                    <items>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <SplitPane dividerPositions="0.10689655172413794" layoutY="26.0" orientation="VERTICAL" prefHeight="349.6" prefWidth="349.6" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                <items>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <Label layoutX="6.0" layoutY="5.0" prefHeight="34.4" prefWidth="348.0" text="  Database" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                                             <font>
+                                                <Font size="18.0" />
+                                             </font>
+                                          </Label>
+                                       </children>
+                                    </AnchorPane>
+                                  <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="160.0">
+                                       <children>
+                                          <ListView fx:id="databaselist" layoutY="14.0" prefHeight="308.0" prefWidth="240.8" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                                       </children>
+                                    </AnchorPane>
+                                </items>
+                              </SplitPane>
+                           </children>
+                        </AnchorPane>
+                      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="160.0" prefWidth="100.0">
+                           <children>
+                              <TextField fx:id="namefeild" layoutX="83.0" layoutY="14.0" prefHeight="26.0" prefWidth="242.0" promptText="Enter book name" />
+                              <Label layoutX="14.0" layoutY="14.0" prefHeight="26.0" prefWidth="59.0" text="Name" />
+                              <Label layoutX="14.0" layoutY="57.0" prefHeight="26.0" prefWidth="59.0" text="Auther" />
+                              <Label layoutX="14.0" layoutY="105.0" prefHeight="26.0" prefWidth="59.0" text="Genre" />
+                              <Label layoutX="14.0" layoutY="161.0" prefHeight="26.0" prefWidth="59.0" text="ISBN" />
+                              <Label layoutX="14.0" layoutY="216.0" prefHeight="26.0" prefWidth="69.0" text="Description" />
+                              <TextField fx:id="autherfeild" layoutX="83.0" layoutY="57.0" prefHeight="26.0" prefWidth="242.0" promptText="Enter book auther" />
+                              <TextField fx:id="genrefeild" layoutX="83.0" layoutY="105.0" prefHeight="26.0" prefWidth="242.0" promptText="Enter book genre(s)" />
+                              <TextField fx:id="isbnfeild" layoutX="83.0" layoutY="161.0" prefHeight="26.0" prefWidth="242.0" promptText="Enter books ISBN rating" />
+                              <TextField fx:id="descriptionfeild" layoutX="14.0" layoutY="242.0" prefHeight="76.0" prefWidth="324.0" promptText="Breaf synopsis of book content (no spoilers)" />
+                              <Button layoutX="300.0" layoutY="323.0" mnemonicParsing="false" onAction="#openmeny" text="Home" />
+                              <Button fx:id="adddata" layoutX="255.0" layoutY="323.0" mnemonicParsing="false" onAction="#submit" prefHeight="26.0" prefWidth="31.0" text="+" />
+                              <Label layoutX="14.0" layoutY="323.0" prefHeight="26.0" prefWidth="196.0" />
+                           </children>
+                        </AnchorPane>
+                    </items>
+                  </SplitPane>
+               </children></AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>
