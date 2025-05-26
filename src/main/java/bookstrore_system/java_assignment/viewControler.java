@@ -11,7 +11,7 @@ import java.io.*;
 public class viewControler implements Initializable {
 
     @FXML
-    String filepath = "C:\\Users\\defaultuser0\\Desktop\\java_assignment\\src\\main\\resources\\bookdatabase.txt";
+    String filepath = "src/main/resources/bookdatabase.txt";
     public ListView<String> databaselist;
 
 

@@ -13,7 +13,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 
 public class addcustomer {
-    String filepath = "C:\\Users\\defaultuser0\\Desktop\\java_assignment\\src\\main\\resources\\customerdatabase.txt";
+    String filepath = "src/main/resources/customerdatabase.txt";
     @FXML
     public TextField namefeild;
     public TextField autherfeild;

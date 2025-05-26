@@ -15,7 +15,7 @@ import java.util.ResourceBundle;
 
 public class searchControler implements Initializable {
     @FXML
-    String filepath = "C:\\Users\\defaultuser0\\Desktop\\java_assignment\\src\\main\\resources\\bookdatabase.txt";
+    String filepath = "src/main/resources/bookdatabase.txt";
     public Button searchbutton;
     public Label keywordfound;
     public Label wherefound;

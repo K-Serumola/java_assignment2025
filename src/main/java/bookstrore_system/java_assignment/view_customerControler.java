@@ -14,7 +14,7 @@ import java.net.URL;
 import java.util.ResourceBundle;
 
 public class view_customerControler implements Initializable {
-    String filepath = "C:\\Users\\defaultuser0\\Desktop\\java_assignment\\src\\main\\resources\\customerdatabase.txt";
+    String filepath = "src/main/resources/customerdatabase.txt";
     public Button searchbutton;
     public Label keywordfound;
     public Label wherefound;

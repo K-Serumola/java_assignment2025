@@ -13,7 +13,7 @@ import java.util.ResourceBundle;
 
 public class pageControler implements Initializable  {
 
-    String filepath = "C:\\Users\\defaultuser0\\Desktop\\java_assignment\\src\\main\\resources\\bookdatabase.txt";
+    String filepath = "src/main/resources/bookdatabase.txt";
     @FXML
     public TextField namefeild;
     public TextField autherfeild;

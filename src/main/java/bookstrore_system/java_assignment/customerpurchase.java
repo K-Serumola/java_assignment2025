@@ -20,9 +20,9 @@ public class customerpurchase implements Initializable {
     @FXML private Label purchaseerror;
     @FXML public ListView<String> bookdatabase;
 
-    public String filepath = "C:\\Users\\defaultuser0\\Desktop\\java_assignment\\src\\main\\resources\\bookdatabase.txt";
-    public String Saledata = "C:\\Users\\defaultuser0\\Desktop\\java_assignment\\src\\main\\resources\\saledata.txt";
-    public String customerdata = "C:\\Users\\defaultuser0\\Desktop\\java_assignment\\src\\main\\resources\\customerdatabase.txt";
+    public String filepath = "src/main/resources/bookdatabase.txt";
+    public String Saledata = "src/main/resources/saledata.txt";
+    public String customerdata = "src/main/resources/customerdatabase.txt";
 
     private String matchedLine; // Holds the matched line (used as ID)
     private String bookselected;

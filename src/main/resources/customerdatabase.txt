@@ -1,2 +1,6 @@
 im a cat,/meow
 im a dog,/bark,
+its_a_name,/its_a_password,/
+potato,/pot a to,/
+guns_and,/ships,/
+customer,/a customers password,/

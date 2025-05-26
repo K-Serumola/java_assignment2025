@@ -23,8 +23,8 @@ public class stonkscontroler implements Initializable {
     public TextField booksearch;
     public ListView<String> bookdatabase;
 
-    String filepath = "C:\\Users\\defaultuser0\\Desktop\\java_assignment\\src\\main\\resources\\bookdatabase.txt";
-    String saledata = "C:\\Users\\defaultuser0\\Desktop\\java_assignment\\src\\main\\resources\\saledata.txt";
+    String filepath = "src/main/resources/bookdatabase.txt";
+    String saledata = "src/main/resources/saledata.txt";
 
     public double getPriceByLine(int lineNumber) {
         // Example logic: hardcoded pricing per line
